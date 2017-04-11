@@ -140,7 +140,8 @@ int main()
 	//test send message ability
 	int i = 0;
 	while(i < 10){
-		sleep(1);
+		//usleep is 1us as standard. 1,000,000us is 1s
+		usleep(100000);
 		write(connfd, buff, strlen(buff));
 		i++;
 	}
