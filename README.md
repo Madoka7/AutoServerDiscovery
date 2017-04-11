@@ -1,9 +1,13 @@
 # AutoServerDiscovery
 include two part of files: client, server. By C/C++
+
 you may need to run these code on a local network, and both on Linux based OS.
+
 use gcc to compile both of the files, recommend:
+
   gcc c.c -o client
   gcc s.c -o server
+  
 then you may run ./client and ./server on your machine.
 
 Attention:
